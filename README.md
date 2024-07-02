@@ -21,33 +21,38 @@ The Unit Converter is a simple web application built with HTML and PHP, designed
 
    ```sh
    git clone https://github.com/yourusername/unit-converter.git
-Start XAMPP:
 
-Open the XAMPP Control Panel.
-Start the Apache and MySQL modules.
-Set up the database:
+2. **Start XAMPP:**
+   - Open the XAMPP Control Panel.
+   - Start the Apache and MySQL modules.
 
-Open phpMyAdmin (usually accessible at http://localhost/phpmyadmin).
-Create a new database named unit_converter.
-Import the unit_converter.sql file located in the db folder of the project repository.
-Configure the project:
+3. **Set up the database:**
+   - Open phpMyAdmin (usually accessible at `http://localhost/phpmyadmin`).
+   - Create a new database named `unit_converter`.
+   - Import the `unit_converter.sql` file located in the `db` folder of the project repository.
 
-Move the project folder to the htdocs directory of your XAMPP installation (usually located at C:\xampp\htdocs on Windows).
-Update the database connection settings in config.php file if necessary.
-Access the application:
+4. **Configure the project:**
+   - Move the project folder to the `htdocs` directory of your XAMPP installation (usually located at `C:\xampp\htdocs` on Windows).
+   - Update the database connection settings in `config.php` file if necessary.
 
-Open your web browser and navigate to http://localhost/unit-converter.
-Usage
-Enter a value in the input field.
-Select the unit type (length, weight, temperature, height).
-Select the units to convert from and to.
-Click the "Convert" button to see the converted value instantly.
-Contributing
+5. **Access the application:**
+   - Open your web browser and navigate to `http://localhost/unit-converter`.
+
+## Usage
+
+1. Enter a value in the input field.
+2. Select the unit type (length, weight, temperature, height).
+3. Select the units to convert from and to.
+4. Click the "Convert" button to see the converted value instantly.
+
+## Contributing
+
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code follows the project coding standards and includes appropriate tests.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
 
-Contact
-For any questions or suggestions, please contact shivamdave172003@gmail.com .
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Contact
+
+For any questions or suggestions, please contact [your email address].
